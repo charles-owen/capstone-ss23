@@ -1,0 +1,17 @@
+div.cl-bar {
+  box-shadow: none;
+  background: transparent url('img/msu/spear-large-green.png') no-repeat center center;
+  background-size: 100% auto;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: black;
+  height: 1.4em;
+  width: 100%;
+  text-align: center;
+  margin: 1em 0;
+
+  span {
+    background: white;
+    padding: 0 5px;
+  }
+}

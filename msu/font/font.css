@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'CalifornianFB';
+	src: url('./CalifornianFB.eot');
+	src: local('CalifornianFB'), url('./CalifornianFB.woff') format('woff'), url('./CalifornianFB.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_7127">Text with this font applied</p> */
+.fontsforweb_fontid_7127 {
+	font-family: 'CalifornianFB' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

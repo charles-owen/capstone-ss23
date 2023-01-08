@@ -1,0 +1,203 @@
+@font-face {
+  font-family: 'CalifornianFB';
+  src: url("font/CalifornianFB.eot");
+  src: local("CalifornianFB"), url("font/CalifornianFB.woff") format("woff"), url("font/CalifornianFB.ttf") format("truetype"); }
+body {
+  background-color: #f9f9f7;
+  background-image: linear-gradient(to bottom, #003025 0%, #1a483d 30%, #f9f9f7 100%);
+  background-size: 100% 550px;
+  background-repeat: no-repeat;
+  -webkit-background-size: auto;
+  background-attachment: fixed; }
+
+header.msu.night {
+  background-image: url(img/msu-night-banner.jpg); }
+
+header.msu.day {
+  background-image: url(img/msu-day-banner-1.jpg); }
+
+header.msu {
+  color: #eeeeee;
+  background-color: #222222;
+  background-position: center top;
+  background-repeat: no-repeat;
+  font-family: 'CalifornianFB', Helvetica, Arial, sans-serif; }
+  header.msu div.heading {
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto; }
+    header.msu div.heading h1 {
+      margin: 0;
+      font-family: 'CalifornianFB', Helvetica, Arial, sans-serif; }
+      header.msu div.heading h1 a {
+        font-family: 'CalifornianFB', Helvetica, Arial, sans-serif;
+        text-decoration: none;
+        color: #eeeeee; }
+    header.msu div.heading div.masthead img {
+      width: 297px;
+      height: 34px; }
+
+div.wider header.msu div.heading {
+  max-width: none; }
+
+header.msu nav > div:first-child {
+  background: url("img/msu/nav_pattern.png"); }
+header.msu nav ul li a span.home {
+  background: url(img/msu/sprite-ico-home.png) center -45px no-repeat; }
+header.msu nav ul li a:link, header.msu nav ul li a:active, header.msu nav ul li a:hover {
+  color: white; }
+header.msu nav ul li a:hover {
+  color: #ffcccc; }
+header.msu nav ul.dividers li {
+  border-right: 1px solid #c2d95d; }
+header.msu nav ul.dividers li:last-child {
+  border: 0; }
+
+footer.msu {
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin: 0 auto 1em auto;
+  color: #18453b;
+  border-top: 1px solid #535054;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', arial, sans-serif;
+  text-align: center;
+  font-style: normal; }
+  footer.msu > div {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding: 0 10px;
+    text-align: left;
+    white-space: nowrap;
+    max-width: 784px; }
+    footer.msu > div > div:first-child {
+      display: inline-block;
+      padding: 2px 10px 0 0; }
+      footer.msu > div > div:first-child img {
+        width: 210px;
+        height: auto; }
+    footer.msu > div > div:last-child {
+      display: inline-block;
+      white-space: normal; }
+  footer.msu div.msu-top {
+    border-bottom: 1px dotted #808080;
+    font-size: 0.9em; }
+    footer.msu div.msu-top ul {
+      height: 22px; }
+    footer.msu div.msu-top li {
+      padding: 0 8px;
+      border-right: 1px solid #18453b; }
+    footer.msu div.msu-top li:first-child {
+      padding-left: 0; }
+    footer.msu div.msu-top li:last-child {
+      border-right: 0; }
+  footer.msu div.msu-middle {
+    line-height: 12px;
+    font-size: 0.75em;
+    margin: 1px 0 3px 0; }
+    footer.msu div.msu-middle .msu-phone {
+      color: #4c7e00; }
+    footer.msu div.msu-middle li {
+      padding: 0 8px 0 4px;
+      border-right: 1px solid #999; }
+    footer.msu div.msu-middle li:first-child {
+      padding-left: 0; }
+    footer.msu div.msu-middle li:last-child {
+      border-right: 0; }
+    footer.msu div.msu-middle a {
+      color: #4c7e00;
+      text-decoration: none; }
+    footer.msu div.msu-middle a:active, footer.msu div.msu-middle a:link, footer.msu div.msu-middle a:visited {
+      color: #4c7e00; }
+    footer.msu div.msu-middle a:hover {
+      text-decoration: underline; }
+  footer.msu div.msu-bottom {
+    line-height: 10px;
+    font-size: 0.5625rem; }
+    footer.msu div.msu-bottom li {
+      padding: 0 8px 0 4px;
+      border-right: 1px solid #999; }
+    footer.msu div.msu-bottom li:first-child {
+      padding-left: 0; }
+    footer.msu div.msu-bottom li:last-child {
+      border-right: 0; }
+    footer.msu div.msu-bottom li.spartans-will {
+      text-transform: uppercase; }
+  footer.msu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  footer.msu li {
+    display: inline-block;
+    margin: 0; }
+  footer.msu a {
+    color: #18453b;
+    text-decoration: none; }
+  footer.msu a:active, footer.msu a:link, footer.msu a:visited {
+    color: #18453b; }
+  footer.msu a:hover {
+    text-decoration: underline; }
+  footer.msu img.screen-msuwordmark {
+    display: block; }
+  footer.msu img.print-msuwordmark {
+    display: none; }
+
+@media print {
+  img.screen-msuwordmark {
+    display: none; }
+
+  img.print-msuwordmark {
+    display: block; } }
+@media only screen and (max-width: 820px) {
+  footer.msu > div {
+    display: block; }
+    footer.msu > div > div:first-child {
+      display: block;
+      padding: 0 18px 0 0; }
+    footer.msu > div > div:last-child {
+      display: inline-block;
+      padding: 4px 0 0 0; }
+  footer.msu div.msu-top ul {
+    padding: 4px 0; }
+  footer.msu div.msu-top li {
+    padding: 2px 0 2px 0;
+    border-right: 0; }
+  footer.msu div.msu-bottom ul {
+    padding: 4px 0; } }
+@media only screen and (max-width: 550px) {
+  footer.msu div.msu-top ul {
+    height: auto; }
+  footer.msu div.msu-middle {
+    margin: 0; }
+    footer.msu div.msu-middle ul {
+      padding: 0; }
+    footer.msu div.msu-middle li {
+      padding: 3px 0 0 0;
+      border-right: 0; }
+  footer.msu div.msu-bottom ul {
+    padding: 0; }
+  footer.msu div.msu-bottom li {
+    padding: 3px 0 0 0;
+    border-right: 0; }
+  footer.msu li {
+    display: block;
+    line-height: normal; } }
+div.components a {
+  color: #008183; }
+
+div.cl-bar {
+  box-shadow: none;
+  background: transparent url("img/msu/spear-large-green.png") no-repeat center center;
+  background-size: 100% auto;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: black;
+  height: 1.4em;
+  width: 100%;
+  text-align: center;
+  margin: 1em 0; }
+  div.cl-bar span {
+    background: white;
+    padding: 0 5px; }

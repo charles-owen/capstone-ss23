@@ -1,0 +1,15 @@
+$msu-teal: #008183;
+$msu-brown: #535054;
+
+
+$header-background: #222222;
+$header-text: #eeeeee;
+
+%body-background {
+  background-color: #f9f9f7;
+  background-image: linear-gradient(to bottom, #003025 0%, #1a483d 30%, #f9f9f7 100%);
+  background-size: 100% 550px;
+  background-repeat: no-repeat;
+  -webkit-background-size: auto;
+  background-attachment: fixed;
+}

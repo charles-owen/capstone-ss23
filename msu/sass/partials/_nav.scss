@@ -1,0 +1,42 @@
+header.msu {
+
+  nav {
+
+    >div:first-child {
+      background: url('img/msu/nav_pattern.png');
+
+    }
+
+    ul {
+
+      li {
+
+        a {
+
+          span.home {
+            background: url(img/msu/sprite-ico-home.png) center -45px no-repeat;
+          }
+        }
+
+        a:link, a:active, a:hover {
+          color: white;
+        }
+
+        a:hover {
+          color: #ffcccc;
+        }
+      }
+    }
+
+    ul.dividers {
+      li {
+        border-right: 1px solid #c2d95d;
+      }
+
+      li:last-child {
+        border: 0;
+      }
+    }
+  }
+
+}

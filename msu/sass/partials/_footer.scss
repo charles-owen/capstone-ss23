@@ -1,0 +1,254 @@
+$text-color: #18453b;
+
+footer.msu {
+  box-sizing: border-box;
+  padding: $padding 0;
+  margin: 0 auto 1em auto;
+  color: $text-color;
+  border-top: 1px solid #535054;
+
+  font-family: 'Gotham SSm A', 'Gotham SSm B', arial, sans-serif;
+  text-align: center;
+  font-style: normal;
+
+  >div {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding: 0 $padding;
+
+    text-align: left;
+    white-space: nowrap;
+    max-width: $max-width;
+
+    >div:first-child {
+      display: inline-block;
+      padding: 2px 10px 0 0;
+
+      img {
+        width: 210px;
+        height: auto;
+      }
+    }
+
+    >div:last-child {
+      display: inline-block;
+      white-space: normal;
+    }
+  }
+
+
+
+  div.msu-top {
+    border-bottom: 1px dotted #808080;
+    font-size: 0.9em;
+
+    ul {
+      height: 22px;
+    }
+
+    li {
+      padding: 0 8px;
+      border-right: 1px solid #18453b;
+
+    }
+
+    li:first-child {
+      padding-left: 0;
+    }
+
+    li:last-child {
+      border-right: 0;
+    }
+
+  }
+
+  div.msu-middle {
+    line-height: 12px;
+    font-size: 0.75em;
+    margin: 1px 0 3px 0;
+
+    .msu-phone {
+      color: #4c7e00;
+    }
+
+    li {
+      padding: 0 8px 0 4px;
+      border-right: 1px solid #999;
+    }
+
+    li:first-child {
+      padding-left: 0;
+    }
+
+    li:last-child {
+      border-right: 0;
+    }
+
+    a {
+      color: #4c7e00;
+      text-decoration: none;
+    }
+
+    a:active, a:link, a:visited {
+      color: #4c7e00;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+  }
+
+  div.msu-bottom {
+    line-height: 10px;
+    font-size: 0.5625rem;
+
+    li {
+      padding: 0 8px 0 4px;
+      border-right: 1px solid #999;
+    }
+
+    li:first-child {
+      padding-left: 0;
+    }
+
+    li:last-child {
+      border-right: 0;
+    }
+
+    li.spartans-will {
+      text-transform: uppercase;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0;
+  }
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+  }
+
+  a:active, a:link, a:visited {
+    color: $text-color;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  img.screen-msuwordmark {
+    display: block;
+  }
+
+  img.print-msuwordmark {
+    display: none;
+  }
+}
+
+@media print {
+
+
+  img.screen-msuwordmark {
+    display: none;
+  }
+
+  img.print-msuwordmark {
+    display: block;
+  }
+
+}
+
+
+@media only screen and (max-width: $medium-width) {
+
+  footer.msu {
+    > div {
+      display: block;
+
+      > div:first-child {
+        display: block;
+        padding: 0 18px 0 0;
+      }
+
+      > div:last-child {
+        display: inline-block;
+        padding: 4px 0 0 0;
+      }
+    }
+
+    div.msu-top {
+      ul {
+        padding: 4px 0;
+      }
+
+      li {
+        padding: 2px 0 2px 0;
+        border-right: 0;
+      }
+    }
+
+    div.msu-bottom {
+      ul {
+        padding: 4px 0;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: $narrow-width) {
+  footer.msu {
+
+    div.msu-top {
+      ul {
+        height: auto;
+      }
+
+      li {
+
+      }
+    }
+
+    div.msu-middle {
+      margin: 0;
+
+      ul {
+        padding: 0;
+      }
+
+      li {
+        padding: 3px 0 0 0;
+        border-right: 0;
+      }
+    }
+
+
+    div.msu-bottom {
+      ul {
+        padding: 0;
+      }
+
+      li {
+        padding: 3px 0 0 0;
+        border-right: 0;
+      }
+    }
+
+    li {
+      display: block;
+      line-height: normal;
+    }
+  }
+}

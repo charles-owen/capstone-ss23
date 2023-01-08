@@ -1,0 +1,50 @@
+@import '../modules/_colors';
+@import '../modules/_variables';
+
+header.msu.night {
+  background-image: url(img/msu-night-banner.jpg);
+}
+
+header.msu.day {
+  background-image: url(img/msu-day-banner-1.jpg);
+}
+
+
+
+header.msu {
+  color: $header-text;
+  background-color: $header-background;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  font-family: 'CalifornianFB', Helvetica, Arial, sans-serif;
+
+  div.heading {
+    padding: $padding;
+    width: 100%;
+    margin: 0 auto;
+
+
+    h1 {
+      margin: 0;
+      font-family: 'CalifornianFB', Helvetica, Arial, sans-serif;
+
+      a {
+        font-family: 'CalifornianFB', Helvetica, Arial, sans-serif;
+        text-decoration: none;
+        color: $header-text;
+      }
+    }
+
+    div.masthead {
+      img {
+        width: 297px;
+        height: 34px;
+      }
+    }
+  }
+}
+
+div.wider header.msu div.heading {
+  max-width: none;
+}

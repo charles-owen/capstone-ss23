@@ -1,0 +1,60 @@
+{
+  "name" : "cl/capstone-develop",
+  "version" : "0.0.1",
+  "description": "Capstone development project.",
+  "type" : "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Charles B. Owen",
+      "email": "cbowen@msu.edu"
+    }
+  ],
+  "scripts": {
+    "cl-installer": "CL\\Site\\Install\\Installer::install"
+  },
+  "require" : {
+    "cl/tables": "dev-master",
+    "cl/site": "dev-vue3",
+    "cl/users": "dev-vue3",
+    "cl/course": "dev-vue3",
+    "cl/console": "dev-vue3",
+    "cl/grades": "dev-vue3",
+    "cl/step": "dev-vue3",
+    "cl/review": "dev-vue3"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/tables-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/site-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/users-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/course-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/console-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/grades-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/step-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/review-cl.git"
+    }
+  ]
+}
