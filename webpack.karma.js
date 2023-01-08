@@ -5,6 +5,6 @@ const site = require('./vendor/cl/site/webpack.karma');
 
 module.exports = merge(common, site, {
     output: {
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'cl/dist')
     }
 });
